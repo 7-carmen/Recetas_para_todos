@@ -173,6 +173,9 @@ hr.separador_post {
     color: black;
 }
 
+.lista-ingredientes {
+    list-style-type: circle;
+}
 
 /* Galeria de Fotos */
 #gallerywrapper {
