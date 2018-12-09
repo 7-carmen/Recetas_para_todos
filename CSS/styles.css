@@ -198,7 +198,6 @@ hr.separador_post {
 } 
 
 #gallerywrapper #gallery div h3 {
-    padding:10px 0 0 0; 
     margin:0; 
     font-size:18px;
 } 
@@ -207,7 +206,6 @@ hr.separador_post {
     padding:5px 0; 
     margin:0; 
     font-size:12px; 
-    line-height:18px;
 } 
 
 #gallery .previous{ 
