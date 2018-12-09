@@ -40,31 +40,29 @@
     <div id="contenedor">
         <h1>Contacta con nostoros</h1>
         <hr class='separador_post' />
-        <p>Para contactar con nosotros rellena nuestro formulario o contacta a través de e-mail <strong>info@recetasparatodos.com</strong></p>
-        <fieldset>
-            <legend>Formulario de contacto</legend>
-            Nombre
-            <br />
-            <input type="name" name="Nombre" value="" />
-            <br />
-            <br />
-            Correo
-            <br />
-            <input type="name" name="correo" value="" />
-            <br />
-            <br />
-            Descrpción
-            <br />
-            <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
-            <br />
-            <br />
-            <input type="checkbox" neme="contador" checked="checked" /> Permitir que el comentario sea púbico
-            <br />
-            <br />
-            <input type="button" name="enviar" value="Enviar" />
-
-
-        </fieldset>
+        <p>Para contactar con nosotros rellena nuestro formulario o contacta a través de e-mail <strong>carmen.sorianotortosa@gmail.com</strong></p>
+        <form action="mailto:carmen.sorianotortosa@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                Nombre
+                <br />
+                <input type="text" name="Nombre" value="" />
+                <br />
+                <br />
+                Correo
+                <br />
+                <input type="email" name="Correo" value="" />
+                <br />
+                <br />
+                Descrpción
+                <br />
+                <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+                <br />
+                <br />
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </fieldset>
+        </form>
         <br />
         <br />
         <br />
