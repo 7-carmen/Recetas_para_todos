@@ -1,0 +1,296 @@
+@font-face {
+    font-family: Galatia;
+    src: url(galatia.otf);
+}
+
+#cabecera {
+    width: 100%;
+    height: 65px;
+    border: 1px solid blue;
+    box-shadow: 1px 1px rgba(40,40,40,0.8);
+    border-radius: 10px;
+}
+
+#cabecera img {
+    width: 65px;
+    float: left;
+}
+
+#cabecera h1 {
+    float: left;
+    margin-top: 5px;
+    font-family: Galatia;
+    font-size: 30pt;
+}
+
+#cabecera #contenedor-iconos {
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+#cabecera #contenedor-iconos img {
+    width: 45px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#cabecera #contenedor-iconos a:nth-child(3) img{
+    margin-top: 15px !important;
+}
+
+#contenedor h1{
+        color: black;
+        font-family: Galatia;
+        font-size: 60px;
+    
+}
+
+#contenedor h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contenedor h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#contenedor #contenedor-imagenes img{
+    width: 100px;
+    height:100px;
+    border-radius:50px;
+    float: left;
+    margin-right: 25px;
+} 
+
+hr.separador_post { 
+        display: block;
+        content: "";
+        height: 30px;
+        margin-top: -90px;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 0 1px 0;
+        -webkit-border-radius:20px;
+           -moz-border-radius:20px;
+                border-radius:20px;
+   }
+   
+
+#contenedor {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 150px;
+    margin-left: 150px;
+    min-height: 400px;
+    
+}
+
+#pie-pagina {
+    margin: 0 auto;
+    width: 1135px;
+    height: 17px;
+    border: 1px solid rgb(0, 119, 255);
+    box-shadow: 1px 1px rgba(40,40,40,0.8);
+    background: rgb(0, 119, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#pie-pagina div{
+    float: left;
+    border-left: 1px solid white;
+}
+
+#pie-pagina div:nth-child(1){
+    border-left: none !important;
+}
+
+#pie-pagina div:hover {
+    background: rgb(41, 141, 255);  
+}
+
+#pie-pagina a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 52px;
+}
+
+#contenedor #contenedor-imagenes-recetas {
+    margin: 115px;
+    min-height: 350px;
+}
+
+#contenedor #contenedor-imagenes-recetas div {
+    width: 30%;
+    float: left;
+    margin: 0 12px;
+}
+
+#contenedor #contenedor-imagenes-recetas img {
+    width: 200px;
+    height:100px;
+    border-radius:50px;
+    margin-right: 25px;
+}
+
+#contenedor-imagenes2 {
+    height: 300px;
+}
+
+#contenedor #contenedor-imagenes2 img{
+    width: 250px;
+    height:150px;
+    border-radius:75px;
+    float: left;
+    margin-right: 25px;
+} 
+
+
+#contenedor #contenedor-imagenes2 a{
+    color: black;
+    text-decoration: none;
+} 
+
+#contenedor #contenedor-imagenes-recetas a {
+    color: black;
+    text-decoration: none;
+}
+
+#contenedor a {
+    text-decoration: none; 
+    color: black;
+}
+
+
+/* Galeria de Fotos */
+#gallerywrapper {
+    width:640px;
+    height:450px;
+    margin:0 auto;
+    position:relative;
+    font-family:verdana, arial, sans-serif;
+} 
+
+#gallerywrapper #gallery {
+    position:absolute;
+    left:0;
+    top:0;
+    height:450px;
+    width:640px;
+    overflow:hidden;
+    text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+    width:640px; height:900px; 
+    padding-top:10px; 
+    position:relative;
+} 
+
+#gallerywrapper #gallery div img {
+    clear:both; 
+    display:block; 
+    margin:0 auto; 
+    border:0;
+} 
+
+#gallerywrapper #gallery div h3 {
+    padding:10px 0 0 0; 
+    margin:0; 
+    font-size:18px;
+} 
+
+#gallerywrapper #gallery div p {
+    padding:5px 0; 
+    margin:0; 
+    font-size:12px; 
+    line-height:18px;
+} 
+
+#gallery .previous{ 
+    display:inline;
+    float:left;
+    margin-left:80px;
+    text-decoration:none;
+} 
+
+#gallery .next{ 
+    display:inline;
+    float:right;
+    margin-right:80px;
+    text-decoration:none;
+}
+/* Galeria de Fotos */
+
+/* Menu desplegable */
+
+#menu {
+    float: left;
+}
+
+#menu ul, ol {
+    list-style:none;
+}
+
+.hamburger {
+    top: 2px;
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    border-top: 0.2em solid rgb(25, 25, 25);
+    border-bottom: 0.2em solid rgb(25, 25, 25);
+}
+
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid rgb(25, 25, 25);
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav .submenu {
+    background-color: black;
+}
+
+.nav li a {
+    color:#fff;
+    text-decoration:none;
+    padding:5px 7px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:rgba(240,240,240,0.8);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    padding-left: 0px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+/* Menu desplegable */
