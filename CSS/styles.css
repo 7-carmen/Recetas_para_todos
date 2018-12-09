@@ -292,3 +292,36 @@ hr.separador_post {
 }
 
 /* Menu desplegable */
+
+/* Tabla */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #b4ceff;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #bed4fcb4;
+}
+
+#utensilios a {
+    text-decoration: underline;
+    color: rgb(63, 63, 224);
+}
+
+/* Tabla */
