@@ -3,6 +3,10 @@
     src: url(galatia.otf);
 }
 
+.error {
+    color: red;
+}
+
 #cabecera {
     width: 100%;
     height: 66px;

@@ -13,6 +13,7 @@
     <meta name="robots" content="index" />
     <meta name="robots" content="follow" />
     <meta name="date" content="2018" />
+    <script type="text/javascript" src="../JavaScript/principal.js"></script>
 </head>
 
 <body>
@@ -52,21 +53,37 @@
             <fieldset>
                 <legend>Formulario de contacto</legend>
                 Nombre
-                <br />
-                <input type="text" name="Nombre" value="" />
-                <br />
-                <br />
+                <br/>
+                <input type="text" name="Nombre" value="" id="nombre" />
+                <span id="errorNombre" class="error"></span>
+                <br/>
+                <br/>
+                Apellidos
+                <br/>
+                <input type="text" name="apellidos" size="25" id="apellidos"> 
+                <span id="errorApellidos" class="error"></span>
+                <br/>
+                <br/>
                 Correo
-                <br />
-                <input type="email" name="Correo" value="" />
-                <br />
-                <br />
+                <br/>
+                <input type="email" name="Correo" value="" id="correo"/>
+                <span id="errorCorreo" class="error"></span>
+                <br/>
+                <br/>
+                Número de Telefono
+                <br/>
+                <input type="number" name="telefono" size="9" id="telefono"> 
+                <span id="errorTelefono" class="error"></span>
+                <br/>
+                <br/>
                 Descrpción
-                <br />
-                <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
-                <br />
-                <br />
-                <input type="submit" value="Enviar" />
+                <br/>
+                <textarea id="descripcion" name="descripcion" cols="40" rows="5" id="descripcion"></textarea>
+                <span id="errorDescripcion" class="error"></span>
+                <br/>
+                <br/>
+                
+                <input type="submit" id="Enviar" onclick="return comprobar()" value="Enviar" /> 
                 <input type="reset" value="Borrar" />
             </fieldset>
         </form>
