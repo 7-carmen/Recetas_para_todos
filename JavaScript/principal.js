@@ -1,6 +1,4 @@
 //Validación formulario: 
-
-
 function comprobar() {
     var primerElemento = document.getElementById("nombre");
     var primerElementoError = document.getElementById("errorNombre");
@@ -57,4 +55,29 @@ if(quintoElemento.value == "" ){
 }
 
     return is_valido;
+}
+
+//Galeria de fotos
+var fotosArray =['../Imagenes/albondigas_bacalao_platofinal.jpg', '../Imagenes/arroz_mil_delicias_platofinal.jpg', '../Imagenes/costillas.jpg','../Imagenes/ensalada_legumbres.jpg','../Imagenes/ensaladas.jpg', '../Imagenes/flan_dulce_leche_platofinal.jpg','../Imagenes/merluza_coliflor_platofinal.jpg', '../Imagenes/mousse_turron_platofinal.jpg', '../Imagenes/pasta.jpg'
+                , '../Imagenes/pollo_alfredo_platofinal.jpg','../Imagenes/RECETA-DE-LECHE-FRITA-UN-POSTRE-ARTESANAL-portada1-860-X-573.jpg','../Imagenes/recetas-de-carne-variadas.jpg'
+                ,'../Imagenes/recetasfacilesysanasdepescado-1440x810.jpg','../Imagenes/Risotto-de-arroz-integral-con-setas.jpg','../Imagenes/tallarines_pollo_platofinal.jpg']
+
+
+//Funcion para pasar la galeria
+var i = 0;
+function siguiente(){
+    if(i == fotosArray.length){
+        i= 0;
+    }
+    document.getElementById("imagenPrincipal").src=fotosArray[i];
+    i++;
+
+}
+
+function atras(){
+    if(i <0){
+        i= fotosArray.length-1;
+    }
+    document.getElementById("imagenPrincipal").src=fotosArray[i];
+    i--;
 }

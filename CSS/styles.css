@@ -7,13 +7,16 @@
     color: red;
 }
 
+
+
 #cabecera {
-    width: 100%;
     height: 66px;
     border: 1px solid blue;
     box-shadow: 1px 1px rgba(40,40,40,0.8);
     border-radius: 10px;
     padding-top: 1px;
+    margin: 0 auto; 
+    width: 90%;
 }
 
 #cabecera img {
@@ -52,6 +55,7 @@
 #cabecera #contenedor-iconos #twitter-link{
     vertical-align: 20px;
 }
+
 
 #contenedor h1{
         color: black;
@@ -97,7 +101,9 @@ hr.separador_post {
     margin-right: 150px;
     margin-left: 150px;
     min-height: 400px;
-    
+    margin: 0 auto; 
+    width: 90%;
+
 }
 
 #pie-pagina {
@@ -182,60 +188,24 @@ hr.separador_post {
 }
 
 /* Galeria de Fotos */
-#gallerywrapper {
-    width:640px;
-    height:450px;
-    margin:0 auto;
-    position:relative;
-    font-family:verdana, arial, sans-serif;
-} 
+#atras {
+    float: left;
+}
 
-#gallerywrapper #gallery {
-    position:absolute;
-    left:0;
-    top:0;
-    height:450px;
-    width:640px;
-    overflow:hidden;
-    text-align:center;
-} 
+#siguiente {
+    float: right;
+}
 
-#gallerywrapper #gallery div {
-    width:640px; height:900px; 
-    padding-top:10px; 
-    position:relative;
-} 
+#foto  img{
+    width: 500px;
+    height:300px;
+    margin-right: 25px;
+    margin-left: 224px;
+    margin-top: 40px;
+}
 
-#gallerywrapper #gallery div img {
-    clear:both; 
-    display:block; 
-    margin:0 auto; 
-    border:0;
-} 
-
-#gallerywrapper #gallery div h3 {
-    margin:0; 
-    font-size:18px;
-} 
-
-#gallerywrapper #gallery div p {
-    padding:5px 0; 
-    margin:0; 
-    font-size:12px; 
-} 
-
-#gallery .previous{ 
-    display:inline;
-    float:left;
-    margin-left:80px;
-    text-decoration:none;
-} 
-
-#gallery .next{ 
-    display:inline;
-    float:right;
-    margin-right:80px;
-    text-decoration:none;
+#foto {
+    height: 0px;
 }
 /* Galeria de Fotos */
 

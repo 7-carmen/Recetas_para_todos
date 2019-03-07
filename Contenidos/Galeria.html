@@ -13,9 +13,11 @@
     <meta name="robots" content="index" />
     <meta name="robots" content="follow" />
     <meta name="date" content="2018" />
+    <script type="text/javascript" src="../JavaScript/principal.js"></script>
 </head>
 
 <body>
+<div id="todos">
     <div id="cabecera">
         <div id="menu">
             <ul class="nav">
@@ -23,6 +25,7 @@
                     <ul class="submenu">
                         <li><a href="Galeria.html">Galería</a></li>
                         <li><a href="Utensilios.html">Utensilios</a></li>
+                        <li><a href="../index.html">Página Principal</a></li>
                     </ul>
                 </li>
             </ul>
@@ -46,43 +49,18 @@
     <br />
     <br />
     <div id="contenedor">
-        <div id="gallerywrapper">
-            <div id="gallery">
-                <div id="pic1">
-                    <img src="../Imagenes/Risotto-de-arroz-integral-con-setas.jpg" height="350" width="500" alt="Image 1">
-                    <p class="gallery-page">1 / 4</p>
-                    <a class="previous" href="#pic5">&lt;</a>
-                    <a class="next" href="#pic2">&gt;</a>
-                    <h3>Risotto de arroz integral con setas</h3>
-
-                </div>
-                <div id="pic2">
-                    <img src="../Imagenes/albondigas_bacalao_platofinal.jpg" height="350" width="500" alt="Image 2">
-                    <p class="gallery-page">2 / 4</p>
-                    <a class="previous" href="#pic1">&lt;</a>
-                    <a class="next" href="#pic3">&gt;</a>
-                    <h3> albondigas de bacalao</h3>
-
-                </div>
-                <div id="pic3">
-                    <img src="../Imagenes/costillas.jpg" height="350" width="500" alt="Image 3">
-                    <p class="gallery-page">3 / 4</p>
-                    <a class="previous" href="#pic2">&lt;</a>
-                    <a class="next" href="#pic4">&gt;</a>
-                    <h3>Costillas barbacoa</h3>
-
-                </div>
-                <div id="pic4">
-                    <img src="../Imagenes/pollo_alfredo_platofinal.jpg" height="350" width="500" alt="Image 4">
-                    <p class="gallery-page">4 / 4</p>
-                    <a class="previous" href="#pic3">&lt;</a>
-                    <a class="next" href="#pic1">&gt;</a>
-                    <h3>Pollo Alfredo</h3>
-
-                </div>
-
-            </div>
+        
+        <div id="atras">
+            <input type="button" id="Atras" onclick="atras()" value="Atras" />
+       </div>
+        <div id="foto">
+            <img src="../Imagenes/geleria.jpg" id="imagenPrincipal"/>
+         </div>
+        <div id="siguiente">
+             <input type="button" id="Siguiente" onclick="siguiente()" value="Siguiente" />
         </div>
+
+  
     </div>
 
 
@@ -103,6 +81,7 @@
             <a href="PoliticaDeCookies.html">Politica de cookies</a>
         </div>
     </div>
+</div>
 
 </body>
 
